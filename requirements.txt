@@ -1,0 +1,7 @@
+matplotlib
+opencv-python
+easyocr
+google-cloud-secret-manager
+openai
+python-dotenv
+black

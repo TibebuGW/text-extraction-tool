@@ -1,5 +1,7 @@
 import cv2
 import easyocr
+from typing import List, Tuple
+
 
 
 def create_bbox_for_text(im_file, output):
@@ -57,7 +59,7 @@ def get_text_predictions(im_file: str):
     return pred_list, output
 
 
-def get_corners_from_bbox(bbox: list[tuple]):
+def get_corners_from_bbox(bbox: List[Tuple]):
     """Given a bounding box, this function extracts and returns the coordinates
     of the upper left and lower right corners.
 
