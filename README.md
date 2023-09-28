@@ -2,6 +2,14 @@
 
 This is a Python-based text extraction tool that allows you to extract text from various sources.
 
+## Requirement
+
+You'll need to have your api key in your .env file like this
+
+```bash
+OPENAI_API_KEY=sk-jia.....
+```
+
 ## Installation
 
 To install the required dependencies, simply run the following command:
