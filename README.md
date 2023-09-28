@@ -4,7 +4,7 @@ This is a Python-based text extraction tool that allows you to extract text from
 
 ## Requirement
 
-You'll need to have your api key in your .env file like this
+You'll need to have your Openai API key in your .env file like this
 
 ```bash
 OPENAI_API_KEY=sk-jia.....
